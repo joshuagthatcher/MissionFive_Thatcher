@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v8.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v8.0": {
+      "MissionFive_Thatcher/1.0.0": {
+        "runtime": {
+          "MissionFive_Thatcher.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "MissionFive_Thatcher/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

@@ -1,0 +1,36 @@
+﻿@{
+    ViewBag.Title = "Calculator";
+}
+
+
+<h2>Tutor Calculator</h2>
+<p>HEY! I'm Josh. Im going to be your backflip tutor. Buckle up, this is going to be epic!</p>
+<img src="~/snowyFace.jpg" alt="Snowy Face" style="width: 400px; height: 400px;" />
+
+<div>
+    <label for="hours">Number of Hours:</label>
+    <input type="text" id="hours" />
+   
+
+    <br />
+
+    <label for="hourlyRate">Hourly Rate:</label>
+    <input type="text" id="hourlyRate" value="7000" readonly />
+
+    <br />
+
+    <button id="calculateBtn">Calculate Total</button>
+
+    <br />
+
+    <label for="total">Total:$</label>
+    <input type="text" id="total" readonly />
+
+    <br />
+
+    <a href="/">Back to Home</a>
+</div>
+
+@section scripts {
+    <script src="~/js/Calculator.js"></script>
+}

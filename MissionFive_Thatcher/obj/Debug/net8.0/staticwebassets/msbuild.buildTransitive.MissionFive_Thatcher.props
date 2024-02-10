@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\buildMultiTargeting\MissionFive_Thatcher.props" />
+</Project>
